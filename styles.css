@@ -1,0 +1,130 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://marketplace.canva.com/EAF8Rl0C_5s/2/0/1600w/canva-pink-illustrative-valentine%27s-day-desktop-wallpaper-X5EmStxfRtM.jpg');
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Makes the background stay fixed when scrolling */
+    color: #b97575; /* Adjust text color for better contrast */
+    text-align: center; /* Center the text horizontally */
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1.5); /* Adds a semi-transparent background to the container */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow around the container */
+}
+
+/* Header styling */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #b37d7d;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Text shadow for a subtle effect */
+}
+
+/* Subheader styling */
+h2 {
+    color: #8d6b6b;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+/* Paragraph styling */
+.cute-note {
+    color: #b37d7d;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+/* Question section */
+.question-section {
+    margin-bottom: 30px;
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #f8d7da;
+}
+
+/* Button styling */
+button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: rgb(204, 83, 83);
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #f8d7da;
+}
+
+/* Image display */
+.image-display {
+    display: none;
+    margin-top: 20px;
+}
+
+.image-display img {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* Add responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .cute-note {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    input[type="text"] {
+        width: 90%;
+    }
+
+    .image-display img {
+        width: 90%;
+    }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's Valentiness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <p class="cute-note">HIIIII I missed youu so I thought nthengilum buildam ennu. But this is not what I planned. Due to my lack of skills, adjust with this one for the time being. I hope you like it. I love you.🥰🥰🥰</p>
+        
+        <!-- Question Section with Multiple Options -->
+        <div class="question-section">
+            <h2>Answer the Question to Reveal the Surprise (Atrak onnm ilaa. Sneham matram)</h2>
+            <p>Will you kalayal your ipozhatte valentine and sweekarikal me?🥰(choices are limited kettoo)</p>
+            
+            <!-- Options for the user to select -->
+            <label>
+                <input type="radio" name="answer" value="yes1"> Yes, I will kalayal my valentine! 🥰
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="yes2"> You are my one nd only valentine! 
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="yes3"> I am all yoursss!!!
+            </label><br>
+            
+            <button onclick="checkAnswer()">Submit amarthu</button>
+        </div>
+
+        <!-- Display the Image after Correct Answer -->
+        <div id="imageDisplay" class="image-display" style="display:none;">
+            <h2>Istapettooooo</h2>
+            <img id="surpriseImage" src="" alt="Surprise Image" width="300">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
